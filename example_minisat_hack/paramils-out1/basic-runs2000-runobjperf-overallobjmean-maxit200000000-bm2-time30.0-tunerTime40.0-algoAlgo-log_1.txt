@@ -1,0 +1,175 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_minisat_hack/scenario-minisat-hack-weights.txt" "-numRun" "1" "-maxEvals" "100000000000000000" "-approach" "basic" "-validN" "1"
+
+
+WARNING: N=2000 is greater than the number of entries
+in the @instances array. This can happen if the algorithm is
+deterministic and the number of training instances is smaller than N,
+or if the instance_seed_file is provided by the user and has less
+entries than N. Clamping N and maxDetail to 20
+seed: 2468
+algo: ruby example_minisat_hack/minisat_wrapper_weights.rb
+tunerTimeout (CPU time): 40.0
+maxWallTime: 8640000.0
+maxEvals: 100000000000000000
+run_obj: perf
+overall_obj: mean
+instance_file: example_minisat_hack/necessary/instances.txt
+test_instance_file: example_minisat_hack/necessary/test-instances.txt
+N: 20
+cutoff_time: 30.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=20, and cutoff time=30.0.
+Current CPU time = 0, this run goes until 40.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.765
+Total CPU time: 1.765
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.528
+Total CPU time: 3.293
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.88
+Total CPU time: 5.173
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 5.418
+Total CPU time: 10.591000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.615
+Total CPU time: 12.206000000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.732
+Total CPU time: 13.938
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.725
+Total CPU time: 15.663
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.501
+Total CPU time: 22.164
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.725
+Total CPU time: 23.889000000000003
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.554
+Total CPU time: 25.443
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.494
+Total CPU time: 26.937
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 2.094
+Total CPU time: 29.031000000000002
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.824
+Total CPU time: 30.855000000000004
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.524
+Total CPU time: 32.379000000000005
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.627
+Total CPU time: 34.00600000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.712
+Total CPU time: 35.71800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.561
+Total CPU time: 37.27900000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.699
+Total CPU time: 38.97800000000001
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.504
+Total CPU time: 40.482000000000006
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 6.438
+Total CPU time: 46.92000000000001
+20/100000000000000000, 46.92000000000001/40.0
+ Same incumbent, new precision:
+New Incumbent: 46.92000000000001, 1763459990.65 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+Total CPU Time 46.92000000000001,  timeout 40.0
+Total CPU Time 46.92000000000001,  timeout 40.0
+ParamILS has reached the specified CPU time limit of 40.0 seconds => stopping the search now.
+   BLS in iteration 1, start with asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1763459990.65 [based on 20 runs with cutoff 30.0])
+Total CPU Time 46.92000000000001,  timeout 40.0
+Total CPU Time 46.92000000000001,  timeout 40.0
+ParamILS has reached the specified CPU time limit of 40.0 seconds => stopping the search now.
+   LM for iteration 1: asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1763459990.65 [based on 20 runs with cutoff 30.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Training quality of this incumbent parameter configuration: 1763459990.65, based on 20 runs with cutoff 30.0
+==================================================================
+
+Comparing LM against incumbent:
+asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1763459990.65 [based on 20 runs with cutoff 30.0])
+asymm=False ccmin-mode=2 cla-decay=0.999 cp-increase=15000 elim=True gc-frac=0.2 lbd-cut=5 lbd-cut-max=10 luby=0 phase-saving=2 pre=True rcheck=False rfirst=100 rinc=2 rnd-freq=0.0 rnd-init=False rnd-seed=91648253 simp-gc-frac=0.5 var-decay=0.80 verb='1' (1763459990.65 [based on 20 runs with cutoff 30.0])
+LM better, change incumbent
+New Incumbent: 46.92000000000001, 1763459990.65 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+Total CPU Time 46.92000000000001,  timeout 40.0
+Total CPU Time 46.92000000000001,  timeout 40.0
+ParamILS has reached the specified CPU time limit of 40.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=20, and cutoff time=30.0.
+New Incumbent: 46.92000000000001, 1763459990.65 [20, 30.0]. With state asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Active parameters: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+==================================================================
+Training quality of this final best found parameter configuration: 1763459990.65, based on 20 runs with cutoff 30.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 1 runs with cutoff time 30.0...
+==================================================================
+Minimum runtime: 0.1
+Cutoff time: 30.000000000000004
+Result time: 1.695
+Total CPU time: 48.61500000000001
+example_minisat_hack/necessary/data/uf100-02.cnf: 1554672.0
+Combined result: 1554672.0
+
+================================================================
+Final best parameter configuration: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+==================================================================
+Active parameters: asymm=False, ccmin-mode=2, cla-decay=0.999, cp-increase=15000, elim=True, gc-frac=0.2, lbd-cut=5, lbd-cut-max=10, luby=0, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0.0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, var-decay=0.80, verb='1'
+
+================================================================
+Training quality of this final best found parameter configuration: 1763459990.65, based on 20 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 1554672.0, based on 1 independent runs with cutoff 30.0
+==================================================================

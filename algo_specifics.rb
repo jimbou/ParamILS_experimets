@@ -24,7 +24,7 @@ def random_number_without_rand
 end
 
 
-$max_objective = 100000000000000
+$max_objective = 10000000000000000000
     
 ###########################################################################
 #Build algorun_cmd
@@ -611,7 +611,15 @@ end
 def singleRunObjective(algo, run_obj, result, qual, rest, cutoff_time=100, cutoff_length=2147483647)
 	raise "singleRunObjective: result = #{result}" unless result 
 	eps = 0.0001
-	solved, runtime, runlength, found_qual, seed = result #.map{|x|x.to_f}
+	if run_obj == "perf"
+		solved, runtime, runlength, perf, seed = result
+		found_qual = 0
+	
+	else
+
+		solved, runtime, runlength, found_qual, seed = result #.map{|x|x.to_f}
+	end
+	puts "the result has length = #{result.length} and content = #{result}"	
 
 
 	if run_obj == "SATRace08"
@@ -670,6 +678,13 @@ def singleRunObjective(algo, run_obj, result, qual, rest, cutoff_time=100, cutof
 	return found_qual if run_obj == "qual"
 	return runlength if run_obj == "runlength" or run_obj == "median_runlength"
 	return runtime if run_obj == "runtime" or run_obj == "median_runtime"
+
+	if run_obj == "perf"
+		puts "i am inide the perf = #{perf}"
+		return $max_objective if perf.nil? || perf.zero? # Invalid run if `perf` is 0 or nil
+		puts "returning as objective perf = #{perf}"
+		return perf.to_f # Return `perf` as the objective if it's positive
+	  end
 	return score if run_obj == "score"
 	if run_obj == "approx"
 		approx_qual = qual.to_f/found_qual # <= 1, want to max

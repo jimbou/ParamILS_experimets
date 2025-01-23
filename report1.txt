@@ -1,0 +1,292 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 21  of event 'cycles:u'
+# Event count (approx.): 4690164
+#
+# Children      Self  Command          Shared Object                   Symbol                                                                                                                                                     
+# ........  ........  ...............  ..............................  ...........................................................................................................................................................
+#
+    21.78%    21.78%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] Minisat::Solver::analyze(unsigned int, Minisat::vec<Minisat::Lit>&, int&)
+            |
+            ---Minisat::Solver::analyze(unsigned int, Minisat::vec<Minisat::Lit>&, int&)
+
+    11.86%    11.86%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] __vfprintf_internal
+            |
+            ---0x3fab14d0
+               __vfprintf_internal
+
+    11.86%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x000000003fab14d0
+            |
+            ---0x3fab14d0
+               __vfprintf_internal
+
+    11.46%    11.46%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] Minisat::Solver::rebuildOrderHeap()
+            |
+            ---Minisat::Solver::rebuildOrderHeap()
+
+    10.26%     5.28%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] _int_malloc
+            |
+            ---_int_malloc
+               |          
+                --4.97%--0xffffffffafc00bc7
+                          0xffffffffafa0b693
+                          0xffffffffae8d2449
+                          0xffffffffaec21fdd
+                          0xffffffffaec21cfe
+                          0xffffffffaec2169b
+                          0xffffffffaec2056c
+                          0xffffffffaec2036c
+                          0xffffffffaec866f4
+                          0xffffffffaec86371
+                          0xffffffffaec4f0c7
+                          0xffffffffaec4d8e4
+                          0xffffffffaec4b689
+                          0xffffffffaec4b06a
+
+     9.88%     9.88%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] Minisat::Solver::propagate()
+            |
+            ---0x900000070b
+               Minisat::Solver::propagate()
+
+     9.88%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x000000900000070b
+            |
+            ---0x900000070b
+               Minisat::Solver::propagate()
+
+     9.07%     9.07%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] int& std::deque<int, std::allocator<int> >::emplace_back<int>(int&&) [clone .isra.0]
+            |
+            ---0x400000000
+               int& std::deque<int, std::allocator<int> >::emplace_back<int>(int&&) [clone .isra.0]
+
+     9.07%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x0000000400000000
+            |
+            ---0x400000000
+               int& std::deque<int, std::allocator<int> >::emplace_back<int>(int&&) [clone .isra.0]
+
+     7.85%     7.85%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] __memmove_avx_unaligned_erms
+            |
+            ---__memmove_avx_unaligned_erms
+
+     6.52%     6.52%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] Minisat::SimpSolver::eliminateVar(int)
+            |
+            ---Minisat::SimpSolver::eliminateVar(int)
+
+     4.99%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffafc00bc7
+            |
+            ---0xffffffffafc00bc7
+               0xffffffffafa0b693
+               |          
+                --4.97%--0xffffffffae8d2449
+                          0xffffffffaec21fdd
+                          0xffffffffaec21cfe
+                          |          
+                           --4.97%--0xffffffffaec2169b
+                                     0xffffffffaec2056c
+                                     0xffffffffaec2036c
+                                     0xffffffffaec866f4
+                                     0xffffffffaec86371
+                                     0xffffffffaec4f0c7
+                                     0xffffffffaec4d8e4
+                                     0xffffffffaec4b689
+                                     0xffffffffaec4b06a
+
+     4.99%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffafa0b693
+            |
+            ---0xffffffffafa0b693
+               |          
+                --4.97%--0xffffffffae8d2449
+                          0xffffffffaec21fdd
+                          0xffffffffaec21cfe
+                          |          
+                           --4.97%--0xffffffffaec2169b
+                                     0xffffffffaec2056c
+                                     0xffffffffaec2036c
+                                     0xffffffffaec866f4
+                                     0xffffffffaec86371
+                                     0xffffffffaec4f0c7
+                                     0xffffffffaec4d8e4
+                                     0xffffffffaec4b689
+                                     0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffae8d2449
+            |
+            ---0xffffffffae8d2449
+               0xffffffffaec21fdd
+               0xffffffffaec21cfe
+               |          
+                --4.97%--0xffffffffaec2169b
+                          0xffffffffaec2056c
+                          0xffffffffaec2036c
+                          0xffffffffaec866f4
+                          0xffffffffaec86371
+                          0xffffffffaec4f0c7
+                          0xffffffffaec4d8e4
+                          0xffffffffaec4b689
+                          0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec21fdd
+            |
+            ---0xffffffffaec21fdd
+               0xffffffffaec21cfe
+               |          
+                --4.97%--0xffffffffaec2169b
+                          0xffffffffaec2056c
+                          0xffffffffaec2036c
+                          0xffffffffaec866f4
+                          0xffffffffaec86371
+                          0xffffffffaec4f0c7
+                          0xffffffffaec4d8e4
+                          0xffffffffaec4b689
+                          0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec21cfe
+            |
+            ---0xffffffffaec21cfe
+               |          
+                --4.97%--0xffffffffaec2169b
+                          0xffffffffaec2056c
+                          0xffffffffaec2036c
+                          0xffffffffaec866f4
+                          0xffffffffaec86371
+                          0xffffffffaec4f0c7
+                          0xffffffffaec4d8e4
+                          0xffffffffaec4b689
+                          0xffffffffaec4b06a
+
+     4.97%     4.97%  minisat_HACK_99  [unknown]                       [k] 0xffffffffaec4b06a
+            |
+            ---_int_malloc
+               0xffffffffafc00bc7
+               0xffffffffafa0b693
+               0xffffffffae8d2449
+               0xffffffffaec21fdd
+               0xffffffffaec21cfe
+               0xffffffffaec2169b
+               0xffffffffaec2056c
+               0xffffffffaec2036c
+               0xffffffffaec866f4
+               0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec2169b
+            |
+            ---0xffffffffaec2169b
+               0xffffffffaec2056c
+               0xffffffffaec2036c
+               0xffffffffaec866f4
+               0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec2056c
+            |
+            ---0xffffffffaec2056c
+               0xffffffffaec2036c
+               0xffffffffaec866f4
+               0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec2036c
+            |
+            ---0xffffffffaec2036c
+               0xffffffffaec866f4
+               0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec866f4
+            |
+            ---0xffffffffaec866f4
+               0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec86371
+            |
+            ---0xffffffffaec86371
+               0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec4f0c7
+            |
+            ---0xffffffffaec4f0c7
+               0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec4d8e4
+            |
+            ---0xffffffffaec4d8e4
+               0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.97%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffaec4b689
+            |
+            ---0xffffffffaec4b689
+               0xffffffffaec4b06a
+
+     4.80%     4.80%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] __strlen_avx2
+            |
+            ---0x485441505f5952
+               __strlen_avx2
+
+     4.80%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x00485441505f5952
+            |
+            ---0x485441505f5952
+               __strlen_avx2
+
+     4.58%     4.58%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] void Minisat::sort<Minisat::Lit, Minisat::LessThan_default<Minisat::Lit> >(Minisat::Lit*, int, Minisat::LessThan_default<Minisat::Lit>) [clone .isra.0]
+            |
+            ---0x95
+               void Minisat::sort<Minisat::Lit, Minisat::LessThan_default<Minisat::Lit> >(Minisat::Lit*, int, Minisat::LessThan_default<Minisat::Lit>) [clone .isra.0]
+
+     4.58%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x0000000000000095
+            |
+            ---0x95
+               void Minisat::sort<Minisat::Lit, Minisat::LessThan_default<Minisat::Lit> >(Minisat::Lit*, int, Minisat::LessThan_default<Minisat::Lit>) [clone .isra.0]
+
+     1.51%     1.51%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] handle_amd
+            |
+            ---0
+               handle_amd
+
+     1.51%     0.00%  minisat_HACK_99  [unknown]                       [.] 0000000000000000
+            |
+            ---0
+               handle_amd
+
+     0.35%     0.35%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] __tunables_init
+     0.35%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x6f63657572743d4d
+     0.35%     0.00%  minisat_HACK_99  [unknown]                       [.] 0x00007fffb11f566f
+     0.09%     0.00%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] _dl_aux_init
+     0.08%     0.08%  minisat_HACK_99  [unknown]                       [k] 0xffffffffafc00ba0
+     0.01%     0.01%  minisat_HACK_99  [unknown]                       [k] 0xffffffffae8d23a0
+     0.00%     0.00%  minisat_HACK_99  [unknown]                       [k] 0xffffffffae8d0f42
+     0.00%     0.00%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] __libc_start_main_impl
+     0.00%     0.00%  minisat_HACK_99  [unknown]                       [k] 0xffffffffaec214eb
+     0.00%     0.00%  minisat_HACK_99  [unknown]                       [k] 0xffffffffafc01638
+     0.00%     0.00%  minisat_HACK_99  minisat_HACK_999ED_CSSC_static  [.] _start
+     0.00%     0.00%  minisat_HACK_99  [unknown]                       [k] 0xffffffffaec1d0d0
+     0.00%     0.00%  minisat_HACK_99  [unknown]                       [.] 0xffffffffae8d2418
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
