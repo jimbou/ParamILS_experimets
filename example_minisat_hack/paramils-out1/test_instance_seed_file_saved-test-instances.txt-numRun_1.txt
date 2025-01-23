@@ -1,0 +1,8 @@
+-1 example_minisat_hack/necessary/data/uf100-02.cnf 
+-1 example_minisat_hack/necessary/data/uf50-02.cnf 
+-1 example_minisat_hack/necessary/data/uuf100-01.cnf 
+-1 example_minisat_hack/necessary/data/uuf100-02.cnf 
+-1 example_minisat_hack/necessary/data/uf50-01.cnf 
+-1 example_minisat_hack/necessary/data/uf100-01.cnf 
+-1 example_minisat_hack/necessary/data/uuf50-01.cnf 
+-1 example_minisat_hack/necessary/data/uuf50-02.cnf 

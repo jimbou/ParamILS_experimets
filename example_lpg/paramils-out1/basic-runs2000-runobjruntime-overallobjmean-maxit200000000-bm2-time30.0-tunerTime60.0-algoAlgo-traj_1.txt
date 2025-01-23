@@ -1,0 +1,4 @@
+Run 2
+0, 100000000, 0, 1, 0, lowmemory='None', noise='0.1', repeats='5', restarts='9', search_steps='500', static_noise='None'
+13.065999999999999, 4.355333333333333, 3, 1, 30.0, lowmemory='None', noise='0.1', repeats='5', restarts='9', search_steps='500', static_noise='None'
+22.627, 3.187, 3, 1, 30.0, lowmemory='True', noise='0.2', repeats='16', restarts='16', search_steps='700', static_noise='None'

@@ -1,0 +1,6 @@
+Final best parameter configuration: disp=False, jac=cs, maxiter=10000, method=COBYLA, tol=0.001
+==================================================================
+Active parameters: disp=False, jac=cs, maxiter=10000, method=COBYLA, tol=0.001
+==================================================================
+Training quality of this final best found parameter configuration: 0.7860000000000001, based on 7 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 0.742, based on 1 independent runs with cutoff 30.0

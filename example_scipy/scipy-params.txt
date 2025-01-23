@@ -1,0 +1,14 @@
+# Core Optimization Settings
+method {Nelder-Mead, Powell, CG, BFGS, L-BFGS-B, TNC, COBYLA, SLSQP, trust-constr} [CG]
+jac {2-point, 3-point, cs, None, True, False} [2-point]
+
+# Optimization Precision and Control
+#tol {0.00001, 0.0001, 0.001, 0.01, 0.1, 0.5, 1.0} [0.0001]  # exponential-like
+# Alternative option:
+tol {0.00001, 0.00005, 0.0001, 0.0005, 0.001, 0.01} [0.0001]  # finer granularity near zero
+
+# Output and Process Control
+disp {True, False} [False]
+#maxiter {10, 50, 100, 500, 1000, 5000, 10000} [100]  # geometric
+# Alternative option:
+maxiter {10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000} [100]  # finer steps at lower values

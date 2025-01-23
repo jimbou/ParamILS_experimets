@@ -1,0 +1,2 @@
+Run 1
+0, 100000000, 0, 1, 0, asymm='False', ccmin-mode='2', cla-decay='0.999', cp-increase='15000', elim='True', gc-frac='0.2', lbd-cut='5', lbd-cut-max='10', luby='0', phase-saving='2', pre='True', rcheck='False', rfirst='100', rinc='2', rnd-freq='0.0', rnd-init='False', rnd-seed='91648253', simp-gc-frac='0.5', var-decay='0.80', verb=''1''

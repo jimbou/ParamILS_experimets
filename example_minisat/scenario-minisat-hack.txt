@@ -1,0 +1,13 @@
+algo = ruby example_minisat_hack/minisat_wrapper.rb
+execdir = .
+deterministic = 0
+run_obj = runtime
+overall_obj = mean
+cutoff_time = 60
+cutoff_length = max
+tunerTimeout = 1
+paramfile = example_minisat_hack/minisat-hack-params.txt
+outdir = example_minisat_hack/paramils-out
+instance_file =example_minisat_hack/necessary/instances.txt
+test_instance_file = example_minisat_hack/necessary/test-instances.txt
+

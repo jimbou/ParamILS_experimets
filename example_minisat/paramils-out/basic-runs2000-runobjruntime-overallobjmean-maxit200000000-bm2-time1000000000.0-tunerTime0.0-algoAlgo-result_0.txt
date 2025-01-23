@@ -1,0 +1,6 @@
+Final best parameter configuration: CLEANING=LBD2, PHASE=RSATPhaseSelectionStrategy, RESTARTS=Glucose21Restarts, SIMP=EXPENSIVE_SIMPLIFICATION
+==================================================================
+Active parameters: CLEANING=LBD2, PHASE=RSATPhaseSelectionStrategy, RESTARTS=Glucose21Restarts, SIMP=EXPENSIVE_SIMPLIFICATION
+==================================================================
+Training quality of this final best found parameter configuration: 1000000000.0009806, based on 2000 runs with cutoff 1000000000.0
+Test quality of this final best found parameter configuration: 1000000000.0009845, based on 1000 independent runs with cutoff 1000000000.0

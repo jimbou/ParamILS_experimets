@@ -1,0 +1,26 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_minisat_hack/scenario-minisat-hack.txt" "-numRun" "1" "-maxEvals" "-1" "-approach" "basic" "-validN" "10"
+
+
+seed: 2468
+algo: ruby example_minisat_hack/minisat_wrapper.rb
+tunerTimeout (CPU time): 10.0
+maxWallTime: 8640000.0
+maxEvals: -1
+run_obj: runtime
+overall_obj: mean
+instance_file: example_minisat_hack/necessary/instances.txt
+test_instance_file: example_minisat_hack/necessary/test-instances.txt
+N: 2000
+cutoff_time: 60.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 2
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=2000, and cutoff time=60.0.
+Current CPU time = 0, this run goes until 10.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state luby=0, rnd-init=False

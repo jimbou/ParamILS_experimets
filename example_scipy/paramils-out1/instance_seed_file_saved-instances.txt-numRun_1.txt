@@ -1,0 +1,7 @@
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_6.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_9.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_0.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_8.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_7.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_3.py 
+-1 /home/jim/magpie/examples/scipy/necessary/data/complex_function_4.py 

@@ -1,0 +1,68 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_minisat/scenario-minisat.txt" "-numRun" "0" "-maxEvals" "1" "-approach" "basic" "-N" "1"
+
+
+seed: 1234
+algo: ruby example_minisat/minisat_wrapper.rb
+tunerTimeout (CPU time): 0.0
+maxWallTime: 8640000.0
+maxEvals: 1
+run_obj: runtime
+overall_obj: mean
+instance_file: example_minisat/necessary/instances.txt
+test_instance_file: example_minisat/necessary/test-instances.txt
+N: 1
+cutoff_time: 60.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 1
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=1, and cutoff time=60.0.
+Current CPU time = 0, this run goes until 0.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+1/1, 60.0/0.0
+ Same incumbent, new precision:
+New Incumbent: 60.0, 60.0 [1, 60.0]. With state asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+ParamILS has reached the specified maximum number of 1 function evaluations => stopping the search now.
+   BLS in iteration 1, start with asymm=False elim=True luby=True pre=True rcheck=False rnd-init=False verb=1 (60.0 [based on 1 runs with cutoff 60.0])
+ParamILS has reached the specified maximum number of 1 function evaluations => stopping the search now.
+   LM for iteration 1: asymm=False elim=True luby=True pre=True rcheck=False rnd-init=False verb=1 (60.0 [based on 1 runs with cutoff 60.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+==================================================================
+Training quality of this incumbent parameter configuration: 60.0, based on 1 runs with cutoff 60.0
+==================================================================
+
+Comparing LM against incumbent:
+asymm=False elim=True luby=True pre=True rcheck=False rnd-init=False verb=1 (60.0 [based on 1 runs with cutoff 60.0])
+asymm=False elim=True luby=True pre=True rcheck=False rnd-init=False verb=1 (60.0 [based on 1 runs with cutoff 60.0])
+LM better, change incumbent
+New Incumbent: 60.0, 60.0 [1, 60.0]. With state asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+ParamILS has reached the specified maximum number of 1 function evaluations => stopping the search now.
+Final solution for depth 1 with limit N=1, and cutoff time=60.0.
+New Incumbent: 60.0, 60.0 [1, 60.0]. With state asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+==================================================================
+Active parameters: asymm=False, elim=True, luby=True, pre=True, rcheck=False, rnd-init=False, verb=1
+
+==================================================================
+Training quality of this final best found parameter configuration: 60.0, based on 1 runs with cutoff 60.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 1000 runs with cutoff time 60.0...
+==================================================================

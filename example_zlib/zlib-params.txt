@@ -1,0 +1,5 @@
+# Core Parameters
+level {1, 2, 3, 4, 5, 6, 7, 8, 9} [6]  # all integers in range
+wbits {25, 26, 27, 28, 29, 30, 31} [28]  # all integers in range
+memLevel {1, 2, 3, 4, 5, 6, 7, 8, 9} [5]  # all integers in range
+strategy {0, 1, 2, 3, 4} [3]  # all integers in range

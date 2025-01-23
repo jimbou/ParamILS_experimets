@@ -1,0 +1,312 @@
+Call: /usr/bin/ruby ../scripts/param_ils_2_3_run.rb "-scenariofile" "example_saps/scenario-Saps-SWGCP-sat-small-train-small-test.txt" "-numRun" "0" "-validN" "100"
+
+
+seed: 1234
+algo: ruby example_saps/saps_wrapper.rb
+tunerTimeout (CPU time): 30.0
+maxWallTime: 8640000.0
+maxEvals: 100000000
+run_obj: runtime
+overall_obj: mean
+instance_file: example_data/SWGCP-satisfiable-small-train.txt
+test_instance_file: example_data/SWGCP-satisfiable-small-test.txt
+N: 2000
+cutoff_time: 5.0
+cutoff_length: 2147483647
+R: 10
+pertubation_strength_basic: 
+pertubation_strength_scaling: false
+p_restart: 0.01
+Run 1
+Level 
+========================================================
+Starting ILS for level 1, i.e. a limit of N=2000, and cutoff time=5.0.
+Current CPU time = 0, this run goes until 30.0 
+========================================================
+New Incumbent: 0, 100000000 [0, 0]. With state alpha=1.189, ps=0.1, rho=0.5, wp=0.03
+ Same incumbent, new precision:
+New Incumbent: 5.0, 5.000019999999999 [1, 5.0]. With state alpha=1.189, ps=0.1, rho=0.5, wp=0.03
+New inc: 0.04
+New Incumbent: 5.1, 0.04 [1, 5.0]. With state alpha=1.189, ps=0.2, rho=0.83, wp=0.04
+          -> Take improving step to random alpha=1.189 ps=0.2 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0])
+
+        -> Worse random: alpha=1.256 ps=0 rho=0.17 wp=0.01 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.066 ps=0.066 rho=1 wp=0.03 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.4 ps=0.133 rho=0.666 wp=0.02 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.4 ps=0.066 rho=0 wp=0 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.256 ps=0.166 rho=0 wp=0.01 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.4 ps=0.2 rho=0.333 wp=0 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.189 ps=0.133 rho=0.83 wp=0.02 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.4 ps=0.066 rho=0.5 wp=0.03 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+        -> Worse random: alpha=1.01 ps=0.033 rho=0.5 wp=0 (["pruned", 0] [based on 1 runs with cutoff 5.0])
+   BLS in iteration 1, start with alpha=1.189 ps=0.2 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.256"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.126"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.03"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.333"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.066"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.5"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.666"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.02"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["ps: 0.2->0"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["ps: 0.2->0.166"], evaluating ...
+          -> Take improving step to neighbour alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0]) with flip 1
+
+          
+============= Performing 10 bonus runs of state: alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0]) ============ 
+
+State wants more detail (1+1) than incumbent (1), doing incumbent first:
+alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0])
+alpha=1.189 ps=0.2 rho=0.83 wp=0.04 (0.04 [based on 1 runs with cutoff 5.0])
+ Same incumbent, new precision:
+New Incumbent: 7.0999999999999925, 0.035 [2, 5.0]. With state alpha=1.189, ps=0.2, rho=0.83, wp=0.04
+New inc: 0.03
+New Incumbent: 7.199999999999992, 0.03 [2, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 7.459999999999992, 0.10666666666666667 [3, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+25/100000000, 12.459999999999992/30.0
+ Same incumbent, new precision:
+New Incumbent: 12.459999999999992, 1.3300049999999999 [4, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 13.329999999999991, 1.2380039999999999 [5, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 13.42999999999999, 1.0333366666666666 [6, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 14.42999999999999, 1.0285742857142857 [7, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 14.52999999999999, 0.9050024999999999 [8, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 14.62999999999999, 0.8055577777777777 [9, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 14.72999999999999, 0.7270019999999999 [10, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 14.82999999999999, 0.6636381818181817 [11, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+          -> After 10 bonus runs: alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.6636381818181817 [based on 11 runs with cutoff 5.0])
+
+    Changing ["ps: 0.166->0.133"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.666"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.02"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.5"], evaluating ...
+        -> worse: (["pruned", 1] [based on 2 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.01"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->1"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.03"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.126"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["ps: 0.166->0.066"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.01"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["ps: 0.166->0.033"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.066"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.06"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.256"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.17"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.326"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["wp: 0.04->0.05"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["ps: 0.166->0.1"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["alpha: 1.189->1.4"], evaluating ...
+        -> worse: (["pruned", 0] [based on 1 runs with cutoff 5.0])
+    Changing ["rho: 0.83->0.333"], evaluating ...
+        -> worse: (["pruned", 2] [based on 3 runs with cutoff 5.0])
+          
+============= Performing 22 bonus runs of state: alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.6636381818181817 [based on 11 runs with cutoff 5.0]) ============ 
+
+58/100000000, 22.530000000000005/30.0
+ Same incumbent, new precision:
+New Incumbent: 22.530000000000005, 1.0250033333333333 [12, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 22.630000000000006, 0.9515415384615384 [13, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 22.730000000000008, 0.8857171428571428 [14, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 22.83000000000001, 0.827336 [15, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 22.93000000000001, 0.7768774999999999 [16, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 24.49000000000001, 0.8229435294117646 [17, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 24.59000000000001, 0.7816688888888889 [18, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 24.690000000000012, 0.7410547368421052 [19, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 27.02000000000001, 0.820502 [20, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ Same incumbent, new precision:
+New Incumbent: 30.56000000000001, 0.9500019047619046 [21, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ParamILS has reached the specified CPU time limit of 30.0 seconds => stopping the search now.
+          -> After 22 bonus runs for LM: alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.9500019047619046 [based on 21 runs with cutoff 5.0])
+
+   LM for iteration 1: alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.9500019047619046 [based on 21 runs with cutoff 5.0])
+
+========== DETAILED RESULTS (iteration 1): ==========
+================================================
+
+==================================================================
+Best parameter configuration found so far (end of iteration 1): alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+==================================================================
+Training quality of this incumbent parameter configuration: 0.9500019047619046, based on 21 runs with cutoff 5.0
+==================================================================
+
+Comparing LM against incumbent:
+alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.9500019047619046 [based on 21 runs with cutoff 5.0])
+alpha=1.189 ps=0.166 rho=0.83 wp=0.04 (0.9500019047619046 [based on 21 runs with cutoff 5.0])
+LM better, change incumbent
+New Incumbent: 30.56000000000001, 0.9500019047619046 [21, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+ParamILS has reached the specified CPU time limit of 30.0 seconds => stopping the search now.
+Final solution for depth 1 with limit N=2000, and cutoff time=5.0.
+New Incumbent: 30.56000000000001, 0.9500019047619046 [21, 5.0]. With state alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+
+==================================================================
+ParamILS is finished.
+==================================================================
+
+Final best parameter configuration found: alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+==================================================================
+Active parameters: alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+
+==================================================================
+Training quality of this final best found parameter configuration: 0.9500019047619046, based on 21 runs with cutoff 5.0
+==================================================================
+
+
+==================================================================
+Computing validation result on independent data -- 100 runs with cutoff time 5.0...
+==================================================================
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 4.53
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 1.73
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 1.56
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 2.57
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.1
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.44
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.06
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.18
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 2.91
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.93
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.08
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.00003
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.62
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.07
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.1
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 3.09
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.78
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.65
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 1.89
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.15
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 2.68
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.26
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 2.88
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 3.62
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.13
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.61
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.11
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.31
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.06
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.73
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.24
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.03
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.81
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.15
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.14915
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.53
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 2.31
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.05
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.43
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.18
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.01
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 5.000019999999999
+example_data/SWGCP-satisfiable-instances/SWlin2006.18830.cnf: 0.04
+example_data/SWGCP-satisfiable-instances/SWlin2006.4435.cnf: 0.02
+example_data/SWGCP-satisfiable-instances/SWlin2006.11218.cnf: 1.66
+example_data/SWGCP-satisfiable-instances/SWlin2006.12713.cnf: 0.57
+example_data/SWGCP-satisfiable-instances/SWlin2006.4166.cnf: 0.05
+Combined result: 1.2719949999999998
+
+================================================================
+Final best parameter configuration: alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+==================================================================
+Active parameters: alpha=1.189, ps=0.166, rho=0.83, wp=0.04
+
+================================================================
+Training quality of this final best found parameter configuration: 0.9500019047619046, based on 21 runs with cutoff 5.0
+Test quality of this final best found parameter configuration: 1.2719949999999998, based on 100 independent runs with cutoff 5.0
+==================================================================

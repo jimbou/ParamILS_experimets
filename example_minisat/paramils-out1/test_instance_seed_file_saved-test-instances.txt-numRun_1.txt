@@ -1,0 +1,4 @@
+-1 example_minisat/necessary/data/uf50-02.cnf 
+-1 example_minisat/necessary/data/uuf100-01.cnf 
+-1 example_minisat/necessary/data/uuf50-02.cnf 
+-1 example_minisat/necessary/data/uf100-01.cnf 

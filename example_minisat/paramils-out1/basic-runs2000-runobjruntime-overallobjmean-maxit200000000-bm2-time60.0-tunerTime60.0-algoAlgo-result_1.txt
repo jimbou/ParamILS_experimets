@@ -1,0 +1,6 @@
+Final best parameter configuration: asymm=False, ccmin-mode=2, cl-lim-bounded=20, cla-decay=0.999, elim=True, gc-frac=0.2, grow=0, luby=True, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, sub-lim-bounded=1000, var-decay=0.95, verb=1
+==================================================================
+Active parameters: asymm=False, ccmin-mode=2, cl-lim-bounded=20, cla-decay=0.999, elim=True, gc-frac=0.2, grow=0, luby=True, phase-saving=2, pre=True, rcheck=False, rfirst=100, rinc=2, rnd-freq=0, rnd-init=False, rnd-seed=91648253, simp-gc-frac=0.5, sub-lim-bounded=1000, var-decay=0.95, verb=1
+==================================================================
+Training quality of this final best found parameter configuration: 60.0, based on 7 runs with cutoff 60.0
+Test quality of this final best found parameter configuration: 60.0, based on 1 independent runs with cutoff 60.0

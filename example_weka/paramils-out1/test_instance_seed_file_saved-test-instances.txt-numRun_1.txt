@@ -1,0 +1,2 @@
+-1 /home/jim/magpie/examples/weka/necessary/data/segment.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/test.arff 

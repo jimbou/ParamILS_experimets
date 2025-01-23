@@ -1,0 +1,5 @@
+"Total Time","Mean Performance","Wallclock Time","Incumbent ID","Automatic Configurator Time","Configuration..."
+0.0869, 100000000, 0.0001, 0, 0.0869, asymm='False', elim='True', luby='True', pre='True', rcheck='False', rnd-init='False', verb='1'
+60.0876, 60.0, 1.1848, 0, 0.0876, asymm='False', elim='True', luby='True', pre='True', rcheck='False', rnd-init='False', verb='1'
+60.0880, 60.0, 1.1852, 0, 0.0880, asymm='False', elim='True', luby='True', pre='True', rcheck='False', rnd-init='False', verb='1'
+60.0880, 60.0, 1.1852, 0, 0.0880, asymm='False', elim='True', luby='True', pre='True', rcheck='False', rnd-init='False', verb='1'

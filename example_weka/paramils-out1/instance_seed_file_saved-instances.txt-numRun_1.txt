@@ -1,0 +1,10 @@
+-1 /home/jim/magpie/examples/weka/necessary/data/cpu.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/soybean.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/votes.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/iris.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/segment.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/test.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/glass.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/contacts.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/diabetes.arff 
+-1 /home/jim/magpie/examples/weka/necessary/data/train.arff 

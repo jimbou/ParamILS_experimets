@@ -1,0 +1,6 @@
+Final best parameter configuration: CLEANING=LBD2, FIXEDPERIOD=10000, INITCONFLICTBOUND=200, LUBYFACTOR=2048, PHASE=PhaseInLastLearnedClauseSelectionStrategy, RESTARTS=LubyRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.998, conflictBoundIncFactor=3.5, varDecay=0.99
+==================================================================
+Active parameters: CLEANING=LBD2, FIXEDPERIOD=10000, INITCONFLICTBOUND=200, LUBYFACTOR=2048, PHASE=PhaseInLastLearnedClauseSelectionStrategy, RESTARTS=LubyRestarts, SIMP=EXPENSIVE_SIMPLIFICATION, claDecay=0.998, conflictBoundIncFactor=3.5, varDecay=0.99
+==================================================================
+Training quality of this final best found parameter configuration: 1.2614999999999998, based on 20 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 0.331, based on 1 independent runs with cutoff 30.0

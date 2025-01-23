@@ -1,0 +1,11 @@
+# Parameters
+RESTARTS {Glucose21Restarts, ArminRestarts, FixedPeriodRestarts, LubyRestarts, NoRestarts, MiniSATRestarts} [Glucose21Restarts]
+LUBYFACTOR {16, 32, 64, 128, 256, 512, 1024, 2048} [512]  # geometric
+FIXEDPERIOD {1, 10, 100, 1000, 10000, 50000, 100000} [100]  # geometric
+PHASE {NegativeLiteralSelectionStrategy, PositiveLiteralSelectionStrategy, RSATPhaseSelectionStrategy, UserFixedPhaseSelectionStrategy, RandomLiteralSelectionStrategy, RSATLastLearnedClausesPhaseSelectionStrategy, PhaseCachingAutoEraseStrategy, PhaseInLastLearnedClauseSelectionStrategy} [RSATPhaseSelectionStrategy]
+claDecay {0.990, 0.992, 0.994, 0.996, 0.998, 0.999} [0.999]  # closer to 1
+INITCONFLICTBOUND {1, 10, 50, 100, 200, 500, 1000} [100]  # geometric
+varDecay {0.90, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99} [0.95]  # uniform
+conflictBoundIncFactor {1.5, 2.0, 2.5, 3.0, 3.5, 4.0} [2.0]  # uniform
+SIMP {NO_SIMPLIFICATION, SIMPLE_SIMPLIFICATION, EXPENSIVE_SIMPLIFICATION} [EXPENSIVE_SIMPLIFICATION]
+CLEANING {ACTIVITY, LBD, LBD2} [LBD2]

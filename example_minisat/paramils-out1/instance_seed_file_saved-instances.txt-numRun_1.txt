@@ -1,0 +1,7 @@
+-1 example_minisat/necessary/data/uf250-02.cnf 
+-1 example_minisat/necessary/data/uuf250-01.cnf 
+-1 example_minisat/necessary/data/uuf250-02.cnf 
+-1 example_minisat/necessary/data/uuf200-02.cnf 
+-1 example_minisat/necessary/data/uuf200-01.cnf 
+-1 example_minisat/necessary/data/uf200-02.cnf 
+-1 example_minisat/necessary/data/uf250-01.cnf 

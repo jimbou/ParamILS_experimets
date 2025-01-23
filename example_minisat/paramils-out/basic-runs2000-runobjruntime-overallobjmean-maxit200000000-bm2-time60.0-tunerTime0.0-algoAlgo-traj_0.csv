@@ -1,0 +1,2 @@
+"Total Time","Mean Performance","Wallclock Time","Incumbent ID","Automatic Configurator Time","Configuration..."
+0.0863, 100000000, 0.0001, 0, 0.0863, asymm='False', elim='True', luby='True', pre='True', rcheck='False', rnd-init='False', verb='1'

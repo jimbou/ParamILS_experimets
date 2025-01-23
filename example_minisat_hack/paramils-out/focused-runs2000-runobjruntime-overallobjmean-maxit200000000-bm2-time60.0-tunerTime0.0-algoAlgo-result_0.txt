@@ -1,0 +1,6 @@
+Final best parameter configuration: asymm=False, elim=True, pre=True, rcheck=False, rnd-init=False
+==================================================================
+Active parameters: asymm=False, elim=True, pre=True, rcheck=False, rnd-init=False
+==================================================================
+Training quality of this final best found parameter configuration: 0.05, based on 1 runs with cutoff 60.0
+Test quality of this final best found parameter configuration: 0.006246999999999945, based on 1000 independent runs with cutoff 60.0

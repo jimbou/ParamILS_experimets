@@ -1,0 +1,3 @@
+"Total Time","Mean Performance","Wallclock Time","Incumbent ID","Automatic Configurator Time","Configuration..."
+0.0720, 100000000, 0.0001, 0, 0.0720, lowmemory='None', noise='0.1', repeats='5', restarts='9', search-steps='500', static-noise='None'
+10.5239, 3.483333333333333, 10.6208, 0, 0.0739, lowmemory='None', noise='0.1', repeats='5', restarts='9', search-steps='500', static-noise='None'

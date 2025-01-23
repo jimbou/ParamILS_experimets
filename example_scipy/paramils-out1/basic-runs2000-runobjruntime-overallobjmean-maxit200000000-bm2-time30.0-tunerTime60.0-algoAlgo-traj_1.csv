@@ -1,0 +1,7 @@
+"Total Time","Mean Performance","Wallclock Time","Incumbent ID","Automatic Configurator Time","Configuration..."
+0.1222, 100000000, 0.0001, 0, 0.1222, disp='False', jac='2-point', maxiter='100', method='CG', tol='0.0001'
+12.5704, 1.7777142857142856, 13.9739, 0, 0.1264, disp='False', jac='2-point', maxiter='100', method='CG', tol='0.0001'
+34.0288, 1.2854285714285714, 40.8486, 2, 0.1328, disp='True', jac='True', maxiter='10000', method='trust-constr', tol='0.00001'
+48.5526, 0.7860000000000001, 56.9323, 4, 0.1466, disp='False', jac='cs', maxiter='10000', method='COBYLA', tol='0.001'
+65.1008, 0.7860000000000001, 77.4379, 4, 0.1588, disp='False', jac='cs', maxiter='10000', method='COBYLA', tol='0.001'
+65.1008, 0.7860000000000001, 77.4380, 4, 0.1588, disp='False', jac='cs', maxiter='10000', method='COBYLA', tol='0.001'

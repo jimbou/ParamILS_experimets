@@ -1,0 +1,10 @@
+# Core Parameters
+#p {1, 5, 10, 20, 30, 50, 70, 100, 120, 150, 180, 200} [100]  # geometric-like spacing
+#I {1, 5, 10, 20, 30, 50, 70, 100, 120, 150, 180, 200} [100]  # geometric-like spacing
+K {0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100} [0]  # uniform spacing
+M {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} [1]  # all values in range
+V {0.001, 0.002, 0.005, 0.01, 0.02, 0.03, 0.05, 0.07, 0.09, 0.1} [0.001]  # logarithmic spacing
+N {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100} [0]  # uniform spacing
+U {True, False} [False]  # categorical
+B {True, False} [False]  # categorical
+num-decimal-places {1, 2, 3, 4, 5} [2]  # all values in range

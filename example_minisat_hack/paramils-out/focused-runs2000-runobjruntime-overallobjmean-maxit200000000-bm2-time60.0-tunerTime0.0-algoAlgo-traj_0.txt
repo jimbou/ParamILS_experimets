@@ -1,0 +1,5 @@
+Run 1
+0, 100000000, 0, 1, 0, asymm='False', elim='True', pre='True', rcheck='False', rnd-init='False'
+0.1, 0.05, 1, 1, 60.0, asymm='False', elim='True', pre='True', rcheck='False', rnd-init='False'
+0.1, 0.05, 1, 1, 60.0, asymm='False', elim='True', pre='True', rcheck='False', rnd-init='False'
+0.1, 0.05, 1, 2, 60.0, asymm='False', elim='True', pre='True', rcheck='False', rnd-init='False'

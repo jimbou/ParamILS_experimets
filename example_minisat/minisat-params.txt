@@ -1,0 +1,31 @@
+# Core Parameters
+luby {True, False} [True]
+rnd-init {True, False} [False]
+gc-frac {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0} [0.2]  # exponential-like sampling
+rinc {1,2, 10, 50, 100, 500, 1000, 5000, 10000, 50000, 65535} [2]  # exponential-like
+var-decay {0.90, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99} [0.95]  # uniform
+cla-decay {0.990, 0.992, 0.994, 0.996, 0.998, 0.999} [0.999]  # closer to 1
+rnd-freq {0, 0.1, 0.2, 0.3, 0.4, 0.5} [0]  # uniform
+rnd-seed {91648253} [91648253]  # fixed value
+phase-saving {0, 1, 2} [2]
+ccmin-mode {0, 1, 2} [2]
+rfirst {1, 10, 50, 100, 500, 1000, 5000, 10000, 50000, 65535} [100]  # exponential-like
+
+# Main Parameters
+pre {True, False} [True]
+verb {0, 1, 2} [1]
+
+# Simplification Parameters
+rcheck {True, False} [False]
+asymm {True, False} [False]
+elim {True, False} [True]
+simp-gc-frac {0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0} [0.5]  # exponential-like
+#sub-lim-bounded {0, 10, 100, 1000, 10000, 50000, 65535} [1000]  # geometric
+#cl-lim-bounded {0, 1, 5, 10, 20, 50, 100, 500, 1000} [20]  # geometric
+grow {-65535, -50000, -10000, -1000, -100, 0, 100, 1000, 10000, 50000, 65535} [0]  # uniform
+
+# Conditional Parameters
+# No conditionals explicitly defined here.
+
+# Forbidden Combinations
+# None explicitly defined.
