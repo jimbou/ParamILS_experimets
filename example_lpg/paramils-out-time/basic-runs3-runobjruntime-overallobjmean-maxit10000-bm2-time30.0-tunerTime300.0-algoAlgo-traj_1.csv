@@ -1,0 +1,7 @@
+"Total Time","Mean Performance","Wallclock Time","Incumbent ID","Automatic Configurator Time","Configuration..."
+0.0680, 100000000, 0.0001, 0, 0.0680, lowmemory='None', noise='0.1', repeats='5', restarts='9', search_steps='500', static_noise='None'
+10.3453, 3.4243333333333332, 10.4504, 0, 0.0723, lowmemory='None', noise='0.1', repeats='5', restarts='9', search_steps='500', static_noise='None'
+20.4883, 3.3793333333333333, 20.7784, 1, 0.0773, lowmemory='True', noise='0.2', repeats='16', restarts='16', search_steps='700', static_noise='None'
+38.5365, 2.630666666666667, 59.9745, 3, 0.0855, lowmemory='None', noise='0.2', repeats='4', restarts='19', search_steps='1000', static_noise='None'
+307.3335, 2.630666666666667, 616.4590, 3, 0.2145, lowmemory='None', noise='0.2', repeats='4', restarts='19', search_steps='1000', static_noise='None'
+307.3336, 2.630666666666667, 616.4591, 3, 0.2146, lowmemory='None', noise='0.2', repeats='4', restarts='19', search_steps='1000', static_noise='None'

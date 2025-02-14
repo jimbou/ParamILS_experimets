@@ -1,4 +1,5 @@
 # lpg Wrapper for ParamILS
+require 'timeout'
 # Define a method to build the parameter string
 def build_param_string(params)
   # Define mappings from parameter names to command-line flags
@@ -140,27 +141,32 @@ if ARGV.length < 5
   # Create a temporary file for capturing output.
   tmp_file = "example_lpg/lpg_output#{rand}.txt"
       exec_cmd = "#{cmd} 1> #{tmp_file} 2> #{tmp_file}"
+  cutoff_time = 30  
+
   start_time = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-
-
-
-  # Execute the command
-  system(exec_cmd)
-
-  # End time
-  end_time = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-
-  # Calculate runtime with millisecond precision
-  runtime = (end_time - start_time).round(3)
   
-  # Print the command to STDERR for debugging.
+  begin
+    # Execute the command with a timeout
+    Timeout.timeout(cutoff_time) do
+      system(exec_cmd)
+    end
+  rescue Timeout::Error
+    STDERR.puts "Timeout: Command exceeded #{cutoff_time} seconds and was terminated."
+    # Kill the process if it’s still running
+    system("pkill -f '#{cmd}'")
+    solved = "TIMEOUT"
+    runtime = cutoff_time
+  else
+    end_time = Process.clock_gettime(Process::CLOCK_MONOTONIC)
+    runtime = (end_time - start_time).round(3)
+  end
+  
+  # Print the command to STDERR for debugging
   STDERR.puts "Calling: #{exec_cmd}"
-  
-  # Execute the command.
-
+  STDERR.puts "Runtime: #{runtime} seconds"
   
   # Parse the output to extract information for ParamILS.
-  solved = "CRASHED"
+  solved ||= "CRASHED"
  
   
   File.open(tmp_file) do |file|

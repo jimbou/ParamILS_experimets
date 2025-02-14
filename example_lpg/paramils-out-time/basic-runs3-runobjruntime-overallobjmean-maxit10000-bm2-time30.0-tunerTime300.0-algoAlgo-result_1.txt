@@ -1,0 +1,6 @@
+Final best parameter configuration: lowmemory=None, noise=0.2, repeats=4, restarts=19, search_steps=1000, static_noise=None
+==================================================================
+Active parameters: lowmemory=None, noise=0.2, repeats=4, restarts=19, search_steps=1000, static_noise=None
+==================================================================
+Training quality of this final best found parameter configuration: 2.630666666666667, based on 3 runs with cutoff 30.0
+Test quality of this final best found parameter configuration: 3.8274999999999997, based on 2 independent runs with cutoff 30.0

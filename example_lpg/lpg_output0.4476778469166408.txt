@@ -1,0 +1,94 @@
+
+
+NUMERIC_THREATS_MODE: 0
+
+; Command line: /home/jim/magpie/examples/lpg/necessary/lpg-td -f /home/jim/magpie/examples/lpg/necessary/blocksworld/problems/pfile01-005.pddl -o /home/jim/magpie/examples/lpg/necessary/blocksworld/domain.pddl -speed -out /home/jim/magpie/examples/lpg/necessary/pfile01-005_1739518303_out -seed 111000 -noise 1.0 -repeats 9 -restarts 5 -search_steps 900   
+
+
+Parsing domain file:  domain 'BLOCKSWORLD' defined ... done.
+Parsing problem file:  problem 'BW-RAND-50' defined ... done.
+
+
+
+Modality: Fast Planner
+
+Number of actions             :    5100
+Number of conditional actions :       0
+Number of facts               :    2651
+
+
+Analyzing Planning Problem:
+	Temporal Planning Problem: NO
+	Numeric Planning Problem: NO
+	Problem with Timed Initial Literals: NO
+	Problem with Derived Predicates: NO
+
+Evaluation function weights:
+     Action duration 0.00; Action cost 1.00
+
+
+Computing mutex... done
+
+Preprocessing total time: 0.22 seconds
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
+...................................... search limit exceeded.
+
+Searching ('.' = every 50 search steps):
+..................... search limit exceeded. Restart.
+........................ search limit exceeded. Restart.
+............................ search limit exceeded. Restart.
+................................. search limit exceeded. Restart.
