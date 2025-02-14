@@ -1,0 +1,13 @@
+algo = ruby example_zlib/zlib_wrapper_L1.rb
+execdir = .
+deterministic = 1
+run_obj = perf
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_zlib/zlib-params.txt
+outdir = example_zlib/paramils-out-L1
+instance_file =/home/jim/magpie/examples/zlib/necessary/instances.txt
+test_instance_file = /home/jim/magpie/examples/zlib/necessary/test-instances.txt
+

@@ -1,0 +1,13 @@
+algo = ruby example_minisat/minisat_wrapper_perf_time.rb
+execdir = .
+deterministic = 1
+run_obj = runtime
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_minisat/minisat-params.txt
+outdir = example_minisat/paramils-out-perf_time
+instance_file =example_minisat/necessary/instances.txt
+test_instance_file = example_minisat/necessary/test-instances.txt
+

@@ -1,0 +1,13 @@
+algo = ruby example_sat4j/sat4j_wrapper_L1.rb
+execdir = .
+deterministic = 1
+run_obj = perf
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_sat4j/sat4j-params.txt
+outdir = example_sat4j/paramils-out1-L1
+instance_file =/home/jim/magpie/examples/sat4j/necessary/instances.txt
+test_instance_file = /home/jim/magpie/examples/sat4j/necessary/test-instances.txt
+

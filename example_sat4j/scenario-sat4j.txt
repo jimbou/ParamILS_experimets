@@ -5,9 +5,9 @@ run_obj = runtime
 overall_obj = mean
 cutoff_time = 30
 cutoff_length = max
-tunerTimeout = 60
+tunerTimeout = 300
 paramfile = example_sat4j/sat4j-params.txt
-outdir = example_sat4j/paramils-out1
+outdir = example_sat4j/paramils-out-time
 instance_file =/home/jim/magpie/examples/sat4j/necessary/instances.txt
 test_instance_file = /home/jim/magpie/examples/sat4j/necessary/test-instances.txt
 

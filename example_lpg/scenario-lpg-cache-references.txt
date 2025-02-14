@@ -1,0 +1,13 @@
+algo = ruby example_lpg/lpg_wrapper_cache_references.rb
+execdir = .
+deterministic = 1
+run_obj = runtime
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_lpg/lpg-params.txt
+outdir = example_lpg/paramils-out-cache-references
+instance_file =/home/jim/magpie/examples/lpg/necessary/instances.txt
+test_instance_file = /home/jim/magpie/examples/lpg/necessary/test-instances.txt
+

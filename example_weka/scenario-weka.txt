@@ -5,9 +5,9 @@ run_obj = runtime
 overall_obj = mean
 cutoff_time = 30
 cutoff_length = max
-tunerTimeout = 60
+tunerTimeout = 300
 paramfile = example_weka/weka-params.txt
-outdir = example_weka/paramils-out1
+outdir = example_weka/paramils-out-time
 instance_file =/home/jim/magpie/examples/weka/necessary/instances.txt
 test_instance_file = /home/jim/magpie/examples/weka/necessary/test-instances.txt
 

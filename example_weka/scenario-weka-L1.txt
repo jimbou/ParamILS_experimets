@@ -1,0 +1,13 @@
+algo = ruby example_weka/weka_wrapper_branches.rb
+execdir = .
+deterministic = 1
+run_obj = perf
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_weka/weka-params.txt
+outdir = example_weka/paramils-out-branches
+instance_file =/home/jim/magpie/examples/weka/necessary/instances.txt
+test_instance_file = /home/jim/magpie/examples/weka/necessary/test-instances.txt
+

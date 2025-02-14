@@ -1,0 +1,13 @@
+algo = ruby example_scipy/scipy_wrapper_cache_references.rb
+execdir = .
+deterministic = 1
+run_obj = perf
+overall_obj = mean
+cutoff_time = 30
+cutoff_length = max
+tunerTimeout = 300
+paramfile = example_scipy/scipy-params.txt
+outdir = example_scipy/paramils-out-cache_references
+instance_file =/home/jim/magpie/examples/scipy/necessary/instances.txt
+test_instance_file = /home/jim/magpie/examples/scipy/necessary/test-instances.txt
+

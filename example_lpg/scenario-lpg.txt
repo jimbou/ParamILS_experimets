@@ -5,9 +5,9 @@ run_obj = runtime
 overall_obj = mean
 cutoff_time = 30
 cutoff_length = max
-tunerTimeout = 60
+tunerTimeout = 300
 paramfile = example_lpg/lpg-params.txt
-outdir = example_lpg/paramils-out1
+outdir = example_lpg/paramils-out-time
 instance_file =/home/jim/magpie/examples/lpg/necessary/instances.txt
 test_instance_file = /home/jim/magpie/examples/lpg/necessary/test-instances.txt
 

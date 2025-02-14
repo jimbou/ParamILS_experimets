@@ -1,0 +1,6 @@
+c WARNING: for repeatability, setting FPU to use [ perf record: WoProgram finished within the time limit.
+Custom Metric: 1554672.1119
+02 MB perf.data (10 samples) ]
+./run_custom.sh: line 24: report1.txt: Permission denied
+./run_custom.sh: line 25: report2.txt: Permission denied
+Custom Metric: 1554672.1119
